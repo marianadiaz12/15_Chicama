@@ -5,13 +5,14 @@
 	background-image: url("../img/grupal.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
+	opacity: 0.7;
 }
 
 .boton{
 	background-color:#E9AD19; 
 	padding: 10px;
 	margin: 10px;
-	border-radius: 4%;
+	border-radius: 5%;
 	height: 40px;
 	width: 100px;
 }
@@ -40,6 +41,21 @@
 .Imagen{
 	height: 200px;
 	width: 250px;
+	border-radius: 5%;
+}
+
+.imagen1{
+		-webkit-filter: saturate(250%);
+		filter: saturate(250%);
+}
+
+.imagen4{
+		-webkit-filter: brightness(50%);
+		filter: brightness(50%);
+}
+
+.imagen3{
+		-webkit-filter: sepia(60%);
 }
 
 .gross{
